@@ -5,6 +5,12 @@
 **openthos_compile_env.tar**
 ### 使用docker工具包
 1.下载openthos_compile_env.tar到本机  
+**由于原本的文件2G，超出了github单文件100M的限制，所以在此切分出来**
+下载openthos_compile_env下所有文件 
+```
+cd openthos_compile_env  
+cat openthos_docker_* > openthos_compile_env.tar
+```
 2，安装docker工具(推荐64位系统)  
 **apt-get install docker docker.io**  
 3.导入工具包
